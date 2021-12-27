@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&display=swap');
+
+body {
+    background: #171717;
+    color: #d3d7de;
+	cursor: default;
+    margin: 0;
+}
+
+.main-title-text {
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 0%;
+}
+
+.nftbigtext {
+    color: rgb(104,0,128);
+    font-size: 80px;
+    opacity: 1;
+ 
+    /*Glow*/
+   -webkit-text-shadow: 0px 0px 20px rgb(104,0,128,0.8);
+   -moz-text-shadow: 0px 0px 20px rgb(104,0,128,0.8);
+   text-shadow: 0px 0px 20px rgb(104,0,128,0.8);  
+}
+
+.main-round-page {
+    position: absolute;
+    right: 30px;
+    top: 5%;
+    height: 500px;
+    width: 500px;
+    border-radius: 250px;
+    background: linear-gradient(126deg, rgba(207,0,255,0.8) 0%, rgba(236,153,255,0) 77%, rgba(255,255,255,0) 100%);
+    -webkit-border-radius: 250px;
+    -moz-border-radius: 250px;
+    -ms-border-radius: 250px;
+    -o-border-radius: 250px;
+}
+
+#chienlogo {
+    position: relative;
+    top: 15px;
+}
+
+.info-main-text {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top: 62%;
+    left: 10px;
+    text-align: left;
+}
+
+.copyright {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top: 93%;
+    left: 10px;
+    color: #747474;
+}
+
+.main-price-rect {
+    position: absolute;
+    right: 30%;
+    top: 60%;
+    height: 150px;
+    width: 300px;
+    border-radius: 30px;
+    background: rgb(40, 40, 40, 40);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: 1px solid rgb(207,0,255);
+}
+
+.ethlogo {
+    position: absolute;
+    top: 13%;
+    left: 5%;
+}
+
+.prixtext {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 2%;
+    left: 20%;
+}
+
+.buybuttun {
+    position: absolute;
+    left: 6%;
+    top: 55%;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    background: rgb(207,0,255);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid rgb(207,0,255);
+}
+
+.rect-propos-img {
+    position: absolute;
+    left: 55%;
+    top: 5%;
+    height: 500px;
+    width: 300px;
+    border-radius: 10px;
+    background: #2E2E2E;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.tortue-img-propos {
+    position: absolute;
+    right: 30px;
+    top: 5%;
+}
+
+.text-opensea {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 45%;
+}
