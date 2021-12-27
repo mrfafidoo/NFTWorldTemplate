@@ -13,6 +13,6 @@ full html/css vanilla
 
 Amusez-vous bien !
 
-#N'hésitez pas à contribuer, et à laisser une étoile !
+N'hésitez pas à contribuer, et à laisser une étoile !
 
 
